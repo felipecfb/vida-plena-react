@@ -1,6 +1,11 @@
+import React from 'react';
+
+import Routes from './routes';
+
+
 function App() {
   return (
-    <h1>Projeto Vida Plena</h1>
+    <Routes />
   );
 }
 
