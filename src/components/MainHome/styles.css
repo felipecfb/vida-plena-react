@@ -1,0 +1,68 @@
+@import url('../../styles/fonte.css');
+
+.banner {
+    width: 100%;
+    background: linear-gradient(180.02deg, #2093bf 10%, #f8f8f8 99.57%);
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .banner .section-1 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 9em;
+  }
+  
+  .banner .section-1 button {
+    padding: 12px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background-color: #2093bf;
+    color: #fff;
+    width: 200px;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+  
+  .banner .section-2 {
+    display: flex;
+    padding: 10px 50px;
+  }
+  
+  .resume {
+    margin: 13em 0;
+    width: 100%;
+    
+  }
+  .resume h1 {
+    color: #2093bf;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  .resume-section {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-around;
+  }
+  
+  .resume-section p {
+    text-align: center;
+    width: 700px;
+    line-height: 2em;
+    font-size: 1.2rem;
+  }
+  
+  .video {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5em;
+}

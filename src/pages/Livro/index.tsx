@@ -1,14 +1,14 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 
-import PageHeader from '../../components/PageHeader';
+import Header from '../../components/Header';
 
 function Livro(){
     return (
         <><Helmet>
             <title>Projeto Vida Plena - Livro</title>
         </Helmet>
-        <PageHeader /></>
+        <Header /></>
     )
 }
 
