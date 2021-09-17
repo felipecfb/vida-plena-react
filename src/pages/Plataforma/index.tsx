@@ -1,10 +1,9 @@
-function Plataforma(){
-    return (
-        <div>
-            <h1>Plataforma</h1>
-        </div>
-    )
-}
+import PageHeader from '../../components/PageHeader';
 
+function Plataforma(){
+        return (
+            <PageHeader />
+        )
+    }
 
 export default Plataforma;

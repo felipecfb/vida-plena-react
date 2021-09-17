@@ -1,9 +1,9 @@
+import PageHeader from '../../components/PageHeader';
+
 function Livro(){
-    return (
-        <div>
-            <h1>Livro</h1>
-        </div>
-    )
-}
+        return (
+            <PageHeader />
+        )
+    }
 
 export default Livro;
