@@ -1,6 +1,6 @@
 import React from "react";
 
-import './styles.css'
+import './MainHome.css'
 
 import Meditation from "../../assets/meditation.svg";
 import textoImg from "../../assets/image-texto.svg";
