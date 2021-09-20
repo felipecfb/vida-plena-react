@@ -1,14 +1,15 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 
-import Header from '../../components/Header';
+import MainPlataforma from '../../components/MainPlataforma';
 
 function Plataforma(){
     return (
         <><Helmet>
             <title>Projeto Vida Plena - Plataforma</title>
         </Helmet>
-        <Header /></>
+        <MainPlataforma />
+        </>
     )
 }
 
