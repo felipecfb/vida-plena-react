@@ -9,21 +9,21 @@ import videoImg from "../../assets/image-video.svg";
 
 function MainHome() {
     return (
-        <><section className="banner">
-            <div className="section-1">
-                <div className="section-1-content">
+        <><section className="HomeBanner">
+            <div className="HomeSection1">
+                <div className="HomeSection1Content">
                     <h2>Projeto Vida Plena</h2>
                     <a href="https://www.allprinteditora.com.br/quem-sou"><button>Adquira o nosso livro</button></a>
                 </div>
             </div>
-            <div className="section-2" id="section-2">
+            <div className="HomeSection2" id="section-2">
                 <img src={Meditation} alt="" />
             </div>
-        </section><section className="resume">
+        </section><section className="HomeResume">
                 <h1>O que é o projeto?</h1>
-                <div className="resume-section">
-                    <div className="resume-1"><img src={textoImg} alt="" /></div>
-                    <div className="resume-2">
+                <div className="HomeResumeSection">
+                    <div><img src={textoImg} alt="" /></div>
+                    <div>
                         <p>
                             Estamos vivendo um tempo de muita complexidade com grandes dificuldades
                             e temores. Essa situação leva a maior parte das pessoas a perderem a
@@ -40,10 +40,10 @@ function MainHome() {
                         </p>
                     </div>
                 </div>
-            </section><section className="video">
-                <div className="video-1"><iframe width="600" height="400" src="https://www.youtube.com/embed/SStJ4xmJImU"></iframe></div>
+            </section><section className="HomeVideo">
+                <div><iframe width="600" height="400" src="https://www.youtube.com/embed/SStJ4xmJImU"></iframe></div>
 
-                <div className="image-video"><img src={videoImg} alt="" /></div>
+                <div><img src={videoImg} alt="" /></div>
             </section></>
     )
 }

@@ -21,27 +21,27 @@ function MainPlataforma() {
       <div className="menu-hamburguer-links">
         <ul>
           <li>
-            <a className="barra-lateral-videos link-video" id="video3">
+            <a className="PlataformaBarraLateralVideos PlataformaLinkVideo" id="video3">
               <p>Vídeo 3 - Realização do Projeto</p>
             </a>
           </li>
           <li>
-            <a className="barra-lateral-videos link-video" id="video4">
+            <a className="PlataformaBarraLateralVideos PlataformaLinkVideo" id="video4">
               <p>Vídeo 3 Profético - Atividade Especial Divina</p>
             </a>
           </li>
           <li>
-            <a className="barra-lateral-videos link-video" id="video5">
+            <a className="PlataformaBarraLateralVideos PlataformaLinkVideo" id="video5">
               <p>Vídeo 5 - Quem é esse Deus da bíblia?</p>
             </a>
           </li>
           <li>
-            <a className="barra-lateral-videos link-video" id="video6">
+            <a className="PlataformaBarraLateralVideos PlataformaLinkVideo" id="video6">
               <p>Vídeo 6 - A Origem do Mal</p>
             </a>
           </li>
           <li>
-            <a className="barra-lateral-videos link-video" id="video7">
+            <a className="PlataformaBarraLateralVideos PlataformaLinkVideo" id="video7">
               <p>
                 Vídeo 7 - Gênesis parte I criação do mundo, tentação e queda e o
                 primeiro assassinato.
@@ -49,37 +49,37 @@ function MainPlataforma() {
             </a>
           </li>
           <li>
-            <a className="barra-lateral-videos link-video" id="video8">
+            <a className="PlataformaBarraLateralVideos PlataformaLinkVideo" id="video8">
               <p>Vídeo 8 - Gênesis parte II Nóe 6, 7, 8 e 9.</p>
             </a>
           </li>
           <li>
-            <a className="barra-lateral-videos link-video" id="video9">
+            <a className="PlataformaBarraLateralVideos PlataformaLinkVideo" id="video9">
               <p>Vídeo 9 - Gênesis parte III - A torre de Babel cap. 11</p>
             </a>
           </li>
           <li>
-            <a className="barra-lateral-videos link-video" id="video10">
+            <a className="PlataformaBarraLateralVideos PlataformaLinkVideo" id="video10">
               <p>Vídeo 10 - Gênesis parte IV Abraão, subparte I cap. 12 e 13.</p>
             </a>
           </li>
           <li>
-            <a className="barra-lateral-videos link-video" id="video11">
+            <a className="PlataformaBarraLateralVideos PlataformaLinkVideo" id="video11">
               <p>Vídeo 11 - Gênesis parte V, subparte II cap. 14.</p>
             </a>
           </li>
           <li>
-            <a className="barra-lateral-videos link-video" id="video12">
+            <a className="PlataformaBarraLateralVideos PlataformaLinkVideo" id="video12">
               <p>Vídeo 12 - Gênesis parte VI, subparte III cap. 15 a 17.</p>
             </a>
           </li>
           <li>
-            <a className="barra-lateral-videos link-video" id="video13">
+            <a className="PlataformaBarraLateralVideos PlataformaLinkVideo" id="video13">
               <p>Vídeo 13 - Gênesis parte VII, subparte IV cap. 18 a 20.</p>
             </a>
           </li>
           <li>
-            <a className="barra-lateral-videos link-video" id="video14">
+            <a className="PlataformaBarraLateralVideos PlataformaLinkVideo" id="video14">
               <p>Vídeo 14 - Gênesis parte VIII, subparte V cap. 20 a 22.</p>
             </a>
           </li>
@@ -89,80 +89,80 @@ function MainPlataforma() {
   </div>
 
   <header>
-    <div className="header-responsivo">
-      <div className="logo">
+    <div className="PlataformaHeader">
+      <div className="PlataformaHeaderlogo">
         <a href="/"><img src={Logo} alt="" /></a>
       </div>
-      <div className="nome-video">
-        <p id="titulo-video">Vídeo 3 - Realização do Projeto</p>
+      <div className="PlataformaTitulo">
+        <p id="PlataformaTituloVideo">Vídeo 3 - Realização do Projeto</p>
       </div>
     </div>
   </header>
 
-  <main id="header">
-    <nav id="nav">
-      <div className="barra-lateral">
-        <ul id="menu">
-          <div className="barra-lateral-videos" id="video3">
-            <a className="link-video" id="video3">
+  <main className="PlataformaMain">
+    <nav className="PlataformaBarraLateral">
+      <div className="PlataformaBarraLateralLinks">
+        <ul id="PlataformaBarraLateralMenu">
+          <div className="PlataformaBarraLateralVideos" id="video3">
+            <a className="LinkVideo" id="video3">
               <p>Vídeo 3 - Realização do Projeto</p>
             </a>
           </div>
-          <div className="barra-lateral-videos" id="video4">
-            <a className="link-video" id="video4">
+          <div className="PlataformaBarraLateralVideos" id="video4">
+            <a className="LinkVideo" id="video4">
               <p>Vídeo 3 Profético - Atividade Especial Divina</p>
             </a>
           </div>
-          <div className="barra-lateral-videos" id="video5">
-            <a className="link-video" id="video5">
+          <div className="PlataformaBarraLateralVideos" id="video5">
+            <a className="LinkVideo" id="video5">
               <p>Vídeo 5 - Quem é esse Deus da bíblia?</p>
             </a>
           </div>
-          <div className="barra-lateral-videos" id="video6">
-            <a className="link-video" id="video6">
+          <div className="PlataformaBarraLateralVideos" id="video6">
+            <a className="LinkVideo" id="video6">
               <p>Vídeo 6 - A Origem do Mal</p>
             </a>
           </div>
-          <div className="barra-lateral-videos" id="video7">
-            <a className="link-video" id="video7">
+          <div className="PlataformaBarraLateralVideos" id="video7">
+            <a className="LinkVideo" id="video7">
               <p>
                 Vídeo 7 - Gênesis parte I criação do mundo, tentação e queda e o
                 primeiro assassinato.
               </p>
             </a>
           </div>
-          <div className="barra-lateral-videos" id="video8">
-            <a className="link-video" id="video8">
+          <div className="PlataformaBarraLateralVideos" id="video8">
+            <a className="LinkVideo" id="video8">
               <p>Vídeo 8 - Gênesis parte II Nóe 6, 7, 8 e 9.</p>
             </a>
           </div>
-          <div className="barra-lateral-videos" id="video9">
-            <a className="link-video" id="video9">
+          <div className="PlataformaBarraLateralVideos" id="video9">
+            <a className="LinkVideo" id="video9">
               <p>Vídeo 9 - Gênesis parte III - A torre de Babel cap. 11</p>
             </a>
           </div>
-          <div className="barra-lateral-videos" id="video10">
-            <a className="link-video" id="video10">
+          <div className="PlataformaBarraLateralVideos" id="video10">
+            <a className="LinkVideo" id="video10">
               <p>Vídeo 10 - Gênesis parte IV Abraão, subparte I cap. 12 e 13.</p>
             </a>
           </div>
-          <div className="barra-lateral-videos" id="video11">
-            <a className="link-video" id="video11">
+          <div className="PlataformaBarraLateralVideos" id="video11">
+            <a className="LinkVideo" id="video11">
               <p>Vídeo 11 - Gênesis parte V, subparte II cap. 14.</p>
             </a>
           </div>
-          <div className="barra-lateral-videos" id="video12">
-            <a className="link-video" id="video12">
+          <div className="PlataformaBarraLateralVideos" id="video12">
+            <a className="LinkVideo" id="video12">
               <p>Vídeo 12 - Gênesis parte VI, subparte III cap. 15 a 17.</p>
             </a>
           </div>
-          <div className="barra-lateral-videos" id="video13">
-            <a className="link-video" id="video13">
+          <div className="PlataformaBarraLateralVideos" id="video13">
+            <a className="LinkVideo" id="video13">
               <p>Vídeo 13 - Gênesis parte VII, subparte IV cap. 18 a 20.</p>
             </a>
           </div>
-          <div className="barra-lateral-videos" id="video14">
-            <a className="link-video" id="video14">
+          <div className="PlataformaBarraLateralVideos" id="video14">
+            <a className="LinkVideo" id="video14">
               <p>Vídeo 14 - Gênesis parte VIII, subparte V cap. 20 a 22.</p>
             </a>
           </div>
@@ -170,13 +170,13 @@ function MainPlataforma() {
         </div>
       </nav>
 
-    <div className="video-plataforma">
-      <div className="video-yt"><iframe id="iframe" width="1000" height="500" src="https://www.youtube.com/embed/08R2ah16Wy8"></iframe></div>
-      <div className="container">
-        <div className="video-nav">
+    <div className="PlataformaVideo">
+      <div className="PlataformaVideoIframe"><iframe id="iframe" width="1000" height="500" src="https://www.youtube.com/embed/08R2ah16Wy8"></iframe></div>
+      <div className="PlataformaContainer">
+        <div className="PlataformaVideoNav">
           <h3>Transcrição</h3>
           <hr />
-          <div className="video-transcrito" id="video-transcrito3a">
+          <div className="PlataformaVideoTranscrito" id="video-transcrito3a">
             <h3>VÍDEO 3 – REALIZAÇÃO DO PROJETO</h3>
             <p>OLÁ QUERIDO E QUERIDA DE DEUS,</p>
             <p>Vamos conhecer o PROJETO VIDA PLENA?</p>
@@ -415,7 +415,7 @@ function MainPlataforma() {
             </h4>
           </div>
 
-          <div className="desactived video-transcrito" id="video-transcrito3b">
+          <div className="Desactived PlataformaVideoTranscrito" id="video-transcrito3b">
             VÍDEO 3 PROFÉTICO
             ATIVIDADE ESPECIAL DIVINA
             OLÁ QUERIDO E QUERIDA DE DEUS,
@@ -501,7 +501,7 @@ function MainPlataforma() {
             Desejo que JESUS abençoe sua vida e você atinja a vida plena que Ele pode proporcionar a você.
           </div>
 
-          <div className="desactived video-transcrito" id="video-transcrito5">
+          <div className="Desactived PlataformaVideoTranscrito" id="video-transcrito5">
             VÍDEO 5
             QUEM É ESSE DEUS DA BÍBLIA
             OLÁ QUERIDO E QUERIDA DE DEUS,
@@ -627,7 +627,7 @@ function MainPlataforma() {
             Malígno...... Eu sou deus.
           </div>
 
-          <div className="desactived video-transcrito" id="video-transcrito6">
+          <div className="Desactived PlataformaVideoTranscrito" id="video-transcrito6">
             VÍDEO 6 – A ORIGEM DO MAL
             Olá querido e querida de Deus,
             No vídeo 5 você assistiu a história sobre quem é o Deus das Escrituras Sagradas.
@@ -747,7 +747,7 @@ function MainPlataforma() {
             Malígno...... Quero curtir tudo.
           </div>
 
-          <div className="desactived video-transcrito" id="video-transcrito7">
+          <div className="Desactived PlataformaVideoTranscrito" id="video-transcrito7">
             VÍDEO 7 – LIVRO DE GÊNESIS
             PARTE I – CRIAÇÃO DO MUNDO / A TENTAÇÃO E QUEDA / O PRIMEIRO ASSASSINATO
 
@@ -909,7 +909,7 @@ function MainPlataforma() {
             Malígno...... Quero poder
           </div>
 
-          <div className="desactived video-transcrito" id="video-transcrito8">
+          <div className="Desactived PlataformaVideoTranscrito" id="video-transcrito8">
             VÍDEO 8 – LIVRO DE GÊNESIS
             PARTE II– A HISTÓRIA DO DILÚVIO
 
@@ -1046,7 +1046,7 @@ function MainPlataforma() {
             Colocar o vídeo de minha despedida dando tchau...
           </div>
 
-          <div className="desactived video-transcrito" id="video-transcrito9">
+          <div className="Desactived PlataformaVideoTranscrito" id="video-transcrito9">
             VÍDEO 9 – LIVRO DE GÊNESIS
             PARTE III– A TORRE DE BABEL
 
@@ -1106,7 +1106,7 @@ function MainPlataforma() {
             Malígno...... Eu sou poderoso
           </div>
 
-          <div className="desactived video-transcrito" id="video-transcrito10">
+          <div className="Desactived PlataformaVideoTranscrito" id="video-transcrito10">
             VÍDEO 10 – LIVRO DE GÊNESIS
             PARTE IV – ABRAÃO – SUBPARTE I
 
@@ -1202,7 +1202,7 @@ function MainPlataforma() {
             Malígno...... Eu me odeio
           </div>
 
-          <div className="desactived video-transcrito" id="video-transcrito11">
+          <div className="Desactived PlataformaVideoTranscrito" id="video-transcrito11">
             VÍDEO 11 – LIVRO DE GÊNESIS
             PARTE V – ABRAÃO – SUBPARTE II
 
@@ -1259,7 +1259,7 @@ function MainPlataforma() {
             Malígno......... Quero GUERRA
           </div>
 
-          <div className="desactived video-transcrito" id="video-transcrito12">
+          <div className="Desactived PlataformaVideoTranscrito" id="video-transcrito12">
             VÍDEO 12 – LIVRO DE GÊNESIS
             PARTE VI – ABRAÃO – SUBPARTE III
 
@@ -1350,7 +1350,7 @@ function MainPlataforma() {
             Malígno... Sou imediatista
           </div>
 
-          <div className="desactived video-transcrito" id="video-transcrito13">
+          <div className="Desactived PlataformaVideoTranscrito" id="video-transcrito13">
             VÍDEO 13 – LIVRO DE GÊNESIS
             PARTE VII – ABRAÃO – SUBPARTE IV
 
@@ -1432,7 +1432,7 @@ function MainPlataforma() {
             Malígno... Quero engravidar.
           </div>
 
-          <div className="desactived video-transcrito" id="video-transcrito14">
+          <div className="Desactived PlataformaVideoTranscrito" id="video-transcrito14">
             VÍDEO 14 – LIVRO DE GÊNESIS
             PARTE VIII – ABRAÃO – SUBPARTE V
 

@@ -1,22 +1,22 @@
-nav {
+.header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     
 }
 
-.logo img {
+.header-logo img {
     width: 130px;
     height: auto;
     margin-left: 25px;
 }
 
-.menu {
+.header-menu {
     display: flex;
     margin: 0 100px 0 0;
 }
 
-.menu li {
+.header-menu li {
     margin: 0 10px;
     color: #000;
     font-size: 18px;

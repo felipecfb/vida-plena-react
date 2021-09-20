@@ -8,26 +8,26 @@ import Livro from "../../assets/livro.png";
 function MainLivro() {
   return (
     <>
-      <main>
-        <div className="section-1">
-          <div className="section-1-titulo">
+      <main className="LivroMain">
+        <div className="LivroSection1">
+          <div className="LivroSection1Titulo">
             <h1>QUEM SOU?</h1>
             <p>de Maria Angélica Roma</p>
           </div>
-          <div className="section-1-img">
+          <div className="LivroSection1Img">
             <img src={ImgBook} alt="" />
           </div>
         </div>
 
-        <div>
+        <div className="LivroHr">
           <hr />
         </div>
 
-        <div className="section-2">
-          <div className="section-2-img">
+        <div className="LivroSection2">
+          <div className="LivroSection2Img">
             <img src={Livro} alt="" />
           </div>
-          <div className="section-2-text">
+          <div className="LivroSection2Texto">
             <p>
               Você sabia que um dos itens para a plenitude de sua vida começa
               com o autoconhecimento? Você se conhece o suficiente para tomar

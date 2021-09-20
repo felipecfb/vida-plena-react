@@ -1,0 +1,116 @@
+.LoginMain {
+    display: flex;
+    background:linear-gradient(180deg, #2093BF 0%, rgba(234, 234, 234, 0) 100%);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 98vh;
+}
+
+.LoginContainer {
+    background-color: #FFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 90%;
+    border-radius: 8px;
+    height:80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.LoginContainer .LoginContainer1 {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0 30px;
+}
+
+.LoginContainer .LoginContainer1 img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 12px;
+}
+
+.LoginContainer .LoginContainer1 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.LoginContainer .LoginContainer1 form{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.LoginContainer .LoginContainer1 form label{
+    font-weight:400;
+    font-size: 1.2rem;
+}
+
+.LoginContainer .LoginContainer1 form input{
+    padding: 12px 28px;
+    outline: none;
+    width: 330px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.678);
+    background: transparent;
+    margin: 12px 0;
+}
+
+#username{
+    /* background: url('../../assets/user.png')no-repeat; */
+    background-position: 6px 10px;
+}
+#pass{
+    /* background:url("../../assets/pass.png")no-repeat; */
+    background-position: 6px 10px;
+}
+
+.LoginButton {
+    padding: 12px 140px;
+    text-transform: uppercase;
+    font-size: .775rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background: #2093BF;
+    color: #FFF;
+    border-radius: 8px;
+}
+
+.LoginContainer .LoginContainer2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginContainer .LoginContainer2 img{
+    width: 700px;
+}
+
+
+
+@media screen and (max-width:600px){
+    .LoginContainer2{
+        display: none !important;
+    }
+
+    .LoginContainer1{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .LoginContainer{
+        width: 100vw !important;
+        padding: 0 !important;
+    }
+}

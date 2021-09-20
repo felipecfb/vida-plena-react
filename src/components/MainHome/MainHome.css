@@ -1,6 +1,13 @@
 @import url('../../styles/fonte.css');
 
-.banner {
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.HomeBanner {
     width: 100%;
     background: linear-gradient(180.02deg, #2093bf 10%, #f8f8f8 99.57%);
     height: 650px;
@@ -8,7 +15,7 @@
     justify-content: space-between;
   }
   
-  .banner .section-1 {
+  .HomeBanner .HomeSection1 {
     height: 100%;
     display: flex;
     align-items: center;
@@ -18,7 +25,7 @@
     margin-left: 9em;
   }
   
-  .banner .section-1 button {
+  .HomeBanner .HomeSection1 button {
     padding: 12px;
     border-radius: 12px;
     outline: none;
@@ -30,37 +37,37 @@
     font-weight: bold;
   }
   
-  .banner .section-2 {
+  .HomeBanner .HomeSection2 {
     display: flex;
     padding: 10px 50px;
   }
   
-  .resume {
+  .HomeResume {
     margin: 13em 0;
     width: 100%;
     
   }
-  .resume h1 {
+  .HomeResume h1 {
     color: #2093bf;
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 30px;
   }
-  .resume-section {
+  .HomeResumeSection {
     display: flex;
     align-items: center;
     gap: 100px;
     justify-content: space-around;
   }
   
-  .resume-section p {
+  .HomeResumeSection p {
     text-align: center;
     width: 700px;
     line-height: 2em;
     font-size: 1.2rem;
   }
   
-  .video {
+  .HomeVideo {
     display: flex;
     align-items: center;
     justify-content: space-between;
