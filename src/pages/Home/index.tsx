@@ -11,9 +11,7 @@ function Home() {
         <title>Projeto Vida Plena</title>
       </Helmet>
       <Header />
-      <main>
-        <MainHome />
-      </main>
+      <MainHome />
     </>
   );
 }
