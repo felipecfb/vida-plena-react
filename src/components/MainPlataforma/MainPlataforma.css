@@ -1,0 +1,224 @@
+@import url('../../styles/fonte.css');
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.header-responsivo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 20vh;
+    margin: 2em 2em 2em 2em;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.nome-video {
+    margin-left: 3em;
+    font-weight: bold;
+    width: 88.5vh;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    overflow-x: hidden;
+}
+
+#nav {
+    width: 15vw;
+}
+
+.barra-lateral {
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-left: 0px;
+    border-bottom: 0px;
+    height: 100%;
+}
+
+.barra-lateral-videos a {
+    cursor: pointer;
+}
+
+.barra-lateral-videos a:hover {
+    color: #2093BF;
+}
+
+.barra-lateral-videos {
+    display: flex;
+    align-items: center;
+    margin: 2em;
+    font-weight: bold;
+}
+
+.barra-lateral-videos p {
+    margin-left: 9px;
+    font-size: 12px;
+}
+
+.video-plataforma {
+    width: 85vw;
+}
+
+.video-yt {
+    background-image: linear-gradient(to bottom, #2093BF, #FFFFFF);
+    text-align: center;
+    width: 100%;
+}
+
+.video-yt iframe {
+    width: 90%;
+    margin: 2em;
+    height: 58vh;
+}
+
+.video-nav {
+    margin: 0 20px 0 20px;
+    justify-content: center;
+    width: 100vw;
+}
+
+.video-nav hr {
+    margin: 0 0 20px 0;
+}
+
+.video-transcrito {
+    font-size: 15px;
+    padding: 2em;
+    height: 700px;
+    line-height: 2em;
+    border: 2px solid #000;
+    background-color: #fff;
+    text-align: justify;
+    overflow: auto;
+}
+
+.desactived {
+    display: none;
+}
+
+.cor-texto {
+    color: black;
+}
+
+.active{
+    margin-left: 0 !important;
+}
+
+.menu-mobile {
+    text-align: center;
+}
+
+.menu-mobile img{
+  cursor: pointer;
+}
+
+.menu-mobile .menu-hamburguer{
+  background-color: #F4F5F6;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 50vw;
+  height: 102vh;
+  margin-left: -100vh;
+  transition: margin .5s ease;
+  overflow: scroll;
+  z-index: 1;
+}
+
+.menu-hamburguer-open {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.menu-hamburguer-open img {
+    margin-top: 12px;
+    display: flex;
+}
+
+.menu-hamburguer-close {
+    display: flex;
+    margin-left: 13px;
+}
+
+.menu-hamburguer-close img{
+    width: 26px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.menu-mobile .menu-hamburguer-links{
+    width: 100%;
+}
+
+.menu-mobile .menu-hamburguer-links ul {
+  list-style: none;
+  text-decoration: none;
+  height: 100vh;
+}
+
+.menu-mobile .menu-hamburguer-links li{
+    margin: 5px 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid;
+}
+.menu-hamburguer a {
+  color: #000;
+}
+
+.menu-mobile .menu-mobile ul {
+  width: 1000px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .header-responsivo {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .barra-lateral {
+        display: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    .logo {
+        border: none;
+        margin: 1em 0;
+        padding-right: 0;
+    }
+
+    .nome-video {
+        margin-bottom: 35px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .video {
+        width: 100vw;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+    .menu-mobile {
+      display: none;
+    }
+}
