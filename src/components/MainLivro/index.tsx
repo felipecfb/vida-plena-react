@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./styles.css";
+import "./MainLivro.css";
 
 import ImgBook from "../../assets/book.svg";
 import Livro from "../../assets/livro.png";
