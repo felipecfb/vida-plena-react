@@ -1,42 +1,56 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 import "./Header.css";
+
 import logo from "../../assets/logo.png";
-import openMenuImg from "../../assets/menu.png"
-import closeMenuImg from "../../assets/close.png"
+import openMenuImg from '../../assets/menu.png';
+import closeMenuImg from '../../assets/close.png';
 
 function Header() {
-  return (
-    <nav className="header-nav">
-      <div className="header-logo">
-        <img src={logo} alt="" />
-      </div>
-      <div className="header-nav-links">
-          <div className="header-menu">
-              <a href="/">Home</a>
-              <a href="/sobre">Sobre</a>
-              <a href="/login">Curso</a>
+    const [mostrarMenu, setMostrarMenu] = useState(false);
+
+    console.log(mostrarMenu)
+
+    let menu = document.querySelector('.menuMobile')
+
+    if (mostrarMenu) {
+        menu?.classList.add('active')
+    } else {
+        menu?.classList.remove('active')
+    }
+
+    return (
+        <><nav className="header-nav">
+          <div className="header-logo">
+            <img src={logo} alt="" />
           </div>
-      </div>
 
-      <div className="menu-mobile">
-      <img src={openMenuImg} alt="" />
-      <div className="menu-hamburguer">
-        <div className="menu-hamburguer-close">
-        <img src={closeMenuImg} alt="" />
-        </div>
-        <div className="menu-hamburguer-links">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projeto</a></li>
-            <li><a href="#">Livro</a></li>
-            <li><a href="#">Curso</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    </nav>
-  );
+          <div className="header-nav">
+                <ul className="header-menu">
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Sobre</li></a>
+                    <a href="#"><li>Curso</li></a>
+                </ul>
+            </div>
+        
+            
+            <div className="menuMobileImg">
+                <img src={openMenuImg} alt="" onClick={() => setMostrarMenu(!mostrarMenu)} />
+            </div>
+            <div className="menuMobile">
+            <img src={closeMenuImg} alt="" onClick={() => setMostrarMenu(false)} />
+                <ul>
+                    <li>Home</li>
+                    <li>Livro</li>
+                    <li>Curso</li>
+                </ul>
+            </div>
+            </nav></>
+            
+            
+
+
+    )
 }
-
 
 export default Header;

@@ -8,7 +8,7 @@
 }
 
 .HomeBanner {
-    width: 100%;
+    width: 100vw;
     background: linear-gradient(180.02deg, #2093bf 10%, #f8f8f8 99.57%);
     height: 650px;
     display: flex;
@@ -16,7 +16,7 @@
   }
   
   .HomeBanner .HomeSection1 {
-    height: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     color: #fff;
@@ -72,4 +72,53 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 5em;
+}
+
+@media screen and (max-width: 600px) {
+  .HomeBanner{
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .HomeBanner .HomeSection1{
+    margin: 0;
+  }
+
+  .HomeSection1Content {
+    margin: 0 auto;
+  }
+
+  .HomeSection2{
+    display: none !important;
+  }
+
+  .HomeResume{
+    flex-direction: column;
+  }
+
+  .HomeResumeSection {
+    flex-direction: column;
+  }
+
+  .HomeResumeSection img{
+    width: 100vw;
+  }
+
+  .HomeResumeSection p{
+    width: 90vw !important;  
+    text-align: justify;
+  }
+
+  .HomeResumeSection2 {
+    text-align: center;
+  }
+
+  .HomeVideo{
+    flex-direction: column-reverse;
+  }
+
+  .HomeVideo img,iframe{
+    width: 100vw;
+  }
 }

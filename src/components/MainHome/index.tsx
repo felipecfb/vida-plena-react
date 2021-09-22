@@ -19,11 +19,12 @@ function MainHome() {
             <div className="HomeSection2" id="section-2">
                 <img src={Meditation} alt="" />
             </div>
-        </section><section className="HomeResume">
+        </section>
+        <section className="HomeResume">
                 <h1>O que é o projeto?</h1>
                 <div className="HomeResumeSection">
-                    <div><img src={textoImg} alt="" /></div>
-                    <div>
+                    <div className="HomeResumeSection1"><img src={textoImg} alt="" /></div>
+                    <div className="HomeResumeSection2">
                         <p>
                             Estamos vivendo um tempo de muita complexidade com grandes dificuldades
                             e temores. Essa situação leva a maior parte das pessoas a perderem a
@@ -40,7 +41,8 @@ function MainHome() {
                         </p>
                     </div>
                 </div>
-            </section><section className="HomeVideo">
+            </section>
+            <section className="HomeVideo">
                 <div><iframe width="600" height="400" src="https://www.youtube.com/embed/SStJ4xmJImU"></iframe></div>
 
                 <div><img src={videoImg} alt="" /></div>
