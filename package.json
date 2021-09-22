@@ -45,5 +45,7 @@
     "@types/react": "^17.0.21",
     "@types/react-helmet": "^6.1.2",
     "@types/react-router-dom": "^5.1.9"
-  }
+  },
+  "engines" : { 
+    "node": "14.x" } 
 }
