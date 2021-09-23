@@ -3,6 +3,7 @@ import {Helmet} from "react-helmet";
 
 import Header from '../../components/Header';
 import MainLivro from '../../components/MainLivro';
+import Footer from "../../components/Footer";
 
 function Livro(){
     return (
@@ -11,6 +12,7 @@ function Livro(){
         </Helmet>
         <Header />
         <MainLivro />
+        <Footer />
         </>
     )
 }

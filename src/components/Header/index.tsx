@@ -27,9 +27,9 @@ function Header() {
 
           <div className="header-nav">
                 <ul className="header-menu">
-                    <a href="#"><li>Home</li></a>
-                    <a href="#"><li>Sobre</li></a>
-                    <a href="#"><li>Curso</li></a>
+                    <a href="/"><li>Home</li></a>
+                    <a href="/sobre"><li>Sobre</li></a>
+                    <a href="/plataforma"><li>Curso</li></a>
                 </ul>
             </div>
         
@@ -40,9 +40,9 @@ function Header() {
             <div className="menuMobile">
             <img src={closeMenuImg} alt="" onClick={() => setMostrarMenu(false)} />
                 <ul>
-                    <li>Home</li>
-                    <li>Livro</li>
-                    <li>Curso</li>
+                    <a href="/"><li>Home</li></a>
+                    <a href="/sobre"><li>Livro</li></a>
+                    <a href="/plataforma"><li>Curso</li></a>
                 </ul>
             </div>
             </nav></>
